@@ -1,5 +1,5 @@
 import React from 'react';
-import {Heading} from "@/components";
+import {Heading, Text} from "@/components";
 
 const Page = () => {
   return (
@@ -7,6 +7,7 @@ const Page = () => {
       <Heading tag="h2"  >
         children
       </Heading>
+      <Text size='large'>text</Text>
     </div>
   );
 };
