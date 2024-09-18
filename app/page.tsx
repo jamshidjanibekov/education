@@ -1,5 +1,5 @@
 import React from 'react';
-import {Heading, Text} from "@/components";
+import {Heading, Tag, Text} from "@/components";
 
 const Page = () => {
   return (
@@ -8,6 +8,7 @@ const Page = () => {
         children
       </Heading>
       <Text size='large'>text</Text>
+      <Tag size={'small'} color={'primary'}>size</Tag>
     </div>
   );
 };
